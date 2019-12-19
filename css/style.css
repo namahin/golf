@@ -88,7 +88,10 @@ header nav {
     padding: 0 55px !important;
 }
 
-header nav button {position: relative;z-index: 2;}
+header nav button {
+    position: relative;
+    z-index: 2;
+}
 
 header nav button span {}
 
@@ -106,7 +109,10 @@ header nav button span a {}
 
 .theame-nav {}
 
-.theame-nav ul {position: relative;z-index: 1;}
+.theame-nav ul {
+    position: relative;
+    z-index: 1;
+}
 
 .theame-nav ul li {
     margin-left: 25px;

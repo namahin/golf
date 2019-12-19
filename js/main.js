@@ -8,16 +8,16 @@ $('.owl-carousel').owlCarousel({
     nav: true,
     animateIn: 'flipInX',
     // autoplay: true,
-    autoplayTimeout: 2500,
-    autoplayHoverPause: true
+    // autoplayTimeout: 2500,
+    // autoplayHoverPause: true
 })
 
-$('.play').on('click', function () {
-    owl.trigger('play.owl.autoplay', [1000])
-})
-$('.stop').on('click', function () {
-    owl.trigger('stop.owl.autoplay')
-})
+// $('.play').on('click', function () {
+//     owl.trigger('play.owl.autoplay', [1000])
+// })
+// $('.stop').on('click', function () {
+//     owl.trigger('stop.owl.autoplay')
+// })
 
 owl.on('mousewheel', '.owl-stage', function (e) {
     if (e.deltaY > 0) {
