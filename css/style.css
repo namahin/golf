@@ -125,14 +125,14 @@ header nav button span a {}
     position: absolute;
     top: -36px;
     padding: 4px 0;
-    background: #728D3B;
+    background: #FF9C00;
     left: 0;
     right: 0;
     border-radius: 0 0 20px 20px;
 }
 
 .theame-nav ul .active a {
-    color: #728D3B;
+    color: #FF9C00;
 }
 
 .theame-nav ul li a {
@@ -143,7 +143,7 @@ header nav button span a {}
 }
 
 .theame-nav ul li a:hover {
-    color: #728D3B;
+    color: #FF9C00;
     transition: linear .2s;
 }
 
@@ -270,6 +270,7 @@ header nav button span a {}
 .home-card-group .card:hover a {
     padding: 8px 50px;
     transition: linear .4s;
+    background-color: #FF9C00;
 }
 
 /* product-sec */
@@ -382,7 +383,10 @@ header nav button span a {}
     margin-bottom: 5px;
     transition: linear .5s;
 }
-
+.carousel-card-content a:hover{
+    background: #FF9C00;
+    border-color: #FF9C00;
+}
 .carousel-card:hover p {
     color: #56506A;
     transition: linear .5s;
@@ -527,7 +531,9 @@ header nav button span a {}
     padding: 5px;
     opacity: .75;
 }
-
+.footer-sec .social-icons li a:hover{
+    color: #FF9C00;
+}
 .footer-sec .social-icons li a i {}
 
 
@@ -554,7 +560,9 @@ header nav button span a {}
     opacity: .75;
     text-decoration: none;
 }
-
+.footer-wegart a:hover{
+    color: #FF9C00;
+}
 .footer-wegart p {
     font-size: 15px;
     opacity: .75;
@@ -582,15 +590,12 @@ header nav button span a {}
 }
 
 .lng-option .dropdown-menu {
-    padding: 0;
-    border-radius: 0;
-    border: none;
     margin-top: 10px;
+    padding: 0;
 }
 
 .lng-option .dropdown-item {
     padding: 2px 5px !important;
-    border: 1px solid;
 }
 
 .lng-option .dropdown-item:last-child {

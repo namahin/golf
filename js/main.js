@@ -6,7 +6,7 @@ $('.owl-carousel').owlCarousel({
     autoWidth: true,
     margin: 30,
     nav: true,
-    animateIn: 'flipInX',
+    // animateIn: 'flipInX',
     // autoplay: true,
     // autoplayTimeout: 2500,
     // autoplayHoverPause: true

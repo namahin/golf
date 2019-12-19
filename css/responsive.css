@@ -224,6 +224,11 @@
      .footer-sec .social-icons {
          text-align: center;
      }
+     .product-sec h2{
+    padding: 0 15px;
+    width: 100%;
+    font-size: 32px;
+     }
  }
 
  /* No media query since the extra-large breakpoint has no upper bound on its width */
