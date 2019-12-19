@@ -1,0 +1,184 @@
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+     .content-img{
+         right: -30px;
+     }
+     .content-img img{
+         text-align: right;
+         width: 400px;
+     }
+     .banner-content p{
+         width: 320px;
+     }
+     .home-card-group .card{
+         width: 250px !important;
+         margin-right: 15px;
+     }
+     .home-card-group .card:last-child{
+         margin-right: 0;
+     }
+     .home-card-group .card:hover a {
+    padding: 8px 30px;
+     }
+     .home-card-group{
+         top: 630px;
+         width: 100%;
+         left: 0px;
+     }
+     .apk-sec{
+         padding: 180px 0;
+     }
+     .apk-sec .apk-content{
+         padding: 25px 15px;
+     }
+     .apk-sec .apk-content img{
+         right: -30px !important;;
+     }
+     .lng-option{
+         padding-left: 30px !important;
+     }
+     .footer-sec .social-icons li{
+         padding-left: 10px;
+     }
+     .product-sec h2{
+         width: 400px;
+     }
+     .footer-sec .social-icons{
+         text-align: left;
+     }
+}
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
+    .home-card-group .card{
+        width: 330px
+    }
+     .apk-sec .apk-content img{
+         right: -80px;
+     }
+     .theame-nav ul .active::before{
+        top: 0;
+         left: -20px;
+         width: 4px;
+         bottom: 0;
+         border-radius: 0 3px 3px 0;
+     }
+     button{
+         outline: 0 !important;
+     }
+     .theame-nav{
+         background: #fff;
+         z-index: 1;
+     }
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (min-width: 992px) and (max-width: 1100px) {
+     header nav {
+         padding: 0 10px !important;
+     }
+     .content-img{
+         right: 0;
+     }
+ }
+
+ @media (max-width: 1199.98px) {}
+
+ /* Extra large devices (large desktops) */
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     header nav button{
+         background: #fff !important;
+         box-shadow: 0 0 10px ghostwhite;
+     }
+     .banner-content .thame-btn-group a{
+    display: table;
+    margin-bottom: 20px !important;
+     }
+     .home-card-group .card{
+         width: 100% !important;
+     }
+     .banner-content{
+         padding-bottom: 50px;
+     }
+     .home-card-group{
+         position: relative;
+         top: auto;
+     }
+     .product-sec{
+         padding-top: 100px;
+     }
+     .home-sec-enner{
+         padding-bottom: 50px;
+     }
+     .apk-sec{
+         padding-bottom: 100px;
+         background-position: center center;
+     }
+     .apk-sec .apk-content img{
+         position: relative;
+         left: 0;
+     }
+     .apk-sec .apk-content{
+         background-position: top left;
+         padding-bottom: 50px;
+         text-align: left;
+     }
+     .footer-sec{
+         margin: 0;
+     }
+     .home-sec-enner{
+         margin: 0 10px;
+     }
+     .apk-sec{
+         padding: 80px 0;
+     }
+     .navbar-brand img{
+         position: relative;
+         z-index: 1;
+     }
+     .banner-content{
+         position: relative;
+         z-index: 1;
+     }
+}
+@media (max-width: 575.98px) {
+    .banner-content p{
+        width: 100%;
+    }
+    .content-img{
+        top: 0px;
+        right:0;
+    }
+    .content-img img{
+        width: 300px;
+    }
+    .product-sec .container{
+        padding-right: 0; 
+    }
+    .owl-carousel .owl-nav{
+        right: 15px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    header nav{
+        padding: 0 20px !important;;
+    }
+    .home-sec{
+        padding-bottom: 80px;
+    }
+    .product-sec{
+        padding-top: 80px;
+    }
+    .footer-logo{
+        margin: auto;
+    }
+    .footer-sec .social-icons{
+        text-align: center;
+    }
+}
+
+ /* No media query since the extra-large breakpoint has no upper bound on its width */
